@@ -7,11 +7,6 @@ int gcd(int a,int b){
 int main(){
     int m,n;
     scanf("%d %d",&m,&n);
-    int temp;
-    if(n>m){
-        temp=m;
-        m=n;
-        n=temp;}
     printf("GCD=%d\n",gcd(m,n));
     return 0;
 }
